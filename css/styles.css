@@ -673,7 +673,19 @@ input[type='checkbox'] {
 .navbar-custom .nav-item .nav-link.active {
 	color: #00c9db;
 }
-
+.button-project {
+  background-color: #00c9db; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
 /* Dropdown Menu */
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
